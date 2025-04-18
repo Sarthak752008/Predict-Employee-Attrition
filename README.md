@@ -1,50 +1,39 @@
-Predict Employee Attrition
+# 🧠 Predict Employee Attrition
+
 This project predicts employee attrition (whether an employee will leave the company) using a machine learning model. The prediction is based on factors like job satisfaction, salary, work environment, and experience.
 
-📁 Dataset
-Dataset: "6. Predict Employee Attrition.csv"
+## 📁 Dataset
 
-Target: Attrition (Yes/No)
+- **Dataset**: **"6. Predict Employee Attrition.csv"**
+- **Target**: `Attrition` (Yes/No)
 
-💡 Project Overview
-Data Preprocessing: Cleaned the dataset (missing values, encoding, irrelevant columns).
+## 💡 Project Overview
 
-Model: Trained a Random Forest Classifier.
+- **Data Preprocessing**: Cleaned the dataset (missing values, encoding, irrelevant columns).
+- **Model**: Trained a **Random Forest Classifier**.
+- **Evaluation**: Used **accuracy**, **precision**, and **recall** metrics. Visualized with a confusion matrix.
 
-Evaluation: Used accuracy, precision, and recall metrics. Visualized with a confusion matrix.
+## 🧰 Libraries Used
 
-🧰 Libraries Used
-pandas: Data manipulation
+- **pandas**: Data manipulation
+- **seaborn** & **matplotlib**: Data visualization
+- **scikit-learn**: Model training & evaluation
 
-seaborn & matplotlib: Data visualization
+## 🚀 How to Run
 
-scikit-learn: Model training & evaluation
+1. Clone or download this repo.
+2. Open in **Google Colab** or Jupyter Notebook.
+3. Upload **"6. Predict Employee Attrition.csv"**.
+4. Run the notebook.
 
-🚀 How to Run
-Clone or download this repo.
+## 📊 Model Evaluation
 
-Open in Google Colab or Jupyter Notebook.
+- **Accuracy**: Proportion of correct predictions.
+- **Precision**: Correct positive predictions.
+- **Recall**: True positives identified.
 
-Upload "6. Predict Employee Attrition.csv".
+The model’s performance is visualized with a **confusion matrix** heatmap.
 
-Run the notebook.
+## 🤝 Contributing
 
-📊 Model Evaluation
-Accuracy: Proportion of correct predictions.
-
-Precision: Correct positive predictions.
-
-Recall: True positives identified.
-
-The model’s performance is visualized with a confusion matrix heatmap.
-
-📂 Project Structure
-mathematica
-Copy
-Edit
-📦 Predict-Employee-Attrition/
-├── README.md
-├── attrition_model.ipynb
-└── 6. Predict Employee Attrition.csv
-🤝 Contributing
 Feel free to fork, experiment, and submit pull requests.
